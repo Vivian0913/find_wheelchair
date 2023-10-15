@@ -8,7 +8,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1>Cornell WheelChair Availability</h1>
+      <h1>Cornell Accessibility Map</h1>
 
       <div className="Sidebar">
         <div className="HelpBlock">
