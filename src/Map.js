@@ -24,12 +24,15 @@ function Map() {
       const buildings = [
         { name: 'Uris Library', coordinates: [42.447, -76.482], totalNum: 5, available: 2 },
         { name: 'Cornell Health', coordinates: [42.445, -76.482], totalNum: 3, available: 1 },
+        { name: 'Carpenter Library', coordinates: [42.448, -76.483], totalNum: 4, available: 3 },
+        { name: 'Willard Straight Hall', coordinates: [42.449, -76.482], totalNum: 6, available: 2 },
         // Add more buildings as needed
       ];
 
       buildings.forEach(building => {
         const icon = L.divIcon({
           className: 'BuildingIcon',
+          iconSize: [40, 40],
           html: `<div>${building.name}</div>`,
         });
 
